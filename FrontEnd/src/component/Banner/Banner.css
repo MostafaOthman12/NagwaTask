@@ -1,0 +1,46 @@
+.Banner {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.6rem;
+  background-color: #026bb0;
+  display: flex;
+  color: white;
+  height: calc(100vh - 83px);
+  flex-direction: row-reverse;
+  align-items: center;
+}
+.Banner-article {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+}
+.Banner-article h1 {
+  margin-bottom: 34px;
+  color: #ffc107;
+}
+.Banner-article h1 span {
+  border-bottom: 5px solid #e51d74;
+  border-radius: 5px;
+}
+.Banner-article p {
+  font-size: 30px;
+}
+.Banner .btn-success {
+  margin-top: 50px;
+  background-color: #78b517;
+  width: 150px;
+}
+.Banner-image {
+  width: 100%;
+}
+.Banner-image img {
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .Banner-article {
+    width: 100%;
+  }
+  .Banner-image {
+    display: none;
+  }
+}

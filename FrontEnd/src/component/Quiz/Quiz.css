@@ -1,0 +1,29 @@
+#root {
+  display: flex;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  margin-top: 25px !important;
+}
+.Quiz {
+  color: aliceblue;
+  border-radius: 10px;
+  padding: 2%;
+  margin-top: 30px;
+  background-color: #026bb0;
+  width: 500px;
+  display: flex;
+  width: 500px;
+  align-items: center;
+  flex-direction: column;
+}
+.Quiz progress {
+  margin-top: 30px;
+  width: 70%;
+}
+.Quiz p {
+  margin-top: 50px;
+  font-size: 25px;
+}
